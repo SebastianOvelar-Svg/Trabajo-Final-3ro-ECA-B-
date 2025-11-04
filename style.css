@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e8f0;
+    text-align: center;
+    margin: 20px;
+    padding-top: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.window {
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.title-bar {
+    background: #4682b4;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+.login-btn {
+    background: #ffcc00;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #ffd700;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+.definition {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.definition h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #4682b4;
+}
+
+.definition p {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+#miBoton {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#miBoton:hover {
+    background: #45a049;
+}
+
+#contador {
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+#add-definition {
+    background: #ffcc00;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#add-definition:hover {
+    background: #ffd700;
+}
+
+.sticky-note {
+    width: 120px;
+    height: 80px;
+    background: #ffff99;
+    border: 1px solid #ccc;
+    position: absolute;
+    padding: 5px;
+    transform: rotate(5deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.sticky-note:nth-child(2) {
+    top: 20px;
+    left: 450px;
+    transform: rotate(-3deg);
+}
+
+.sticky-note:nth-child(3) {
+    top: 80px;
+    left: 480px;
+}
